@@ -9,8 +9,16 @@ function getComputerChoice() {
   alert(choices[choiceIndex]);
 }
 
-function playRound(playerSelection, computerSelection) {}
-
-const playerSelection = "rock";
 const computerSelection = getComputerChoice();
+
+//if playerSelection is equal to computerSelection, alert tie
+//if playerSelection is  rock and computerSelection is paper, alert you lose
+//if playerSelection is paper and computerSelection is scissors, alert you lose
+//if playerSelection is scissors and computerSelection is rock, alert you lose
+//all else, alert you win
+const playerSelection = "rock";
+
+
+
+function playRound(playerSelection, computerSelection) {}
 console.log(playRound(playerSelection, computerSelection));
